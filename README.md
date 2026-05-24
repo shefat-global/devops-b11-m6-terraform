@@ -171,3 +171,17 @@ ssh -i shefat-devops.pem ubuntu@<db-private-ip>
 - AWS EC2: https://docs.aws.amazon.com/ec2/
 - Ubuntu Cloud Images: https://cloud-images.ubuntu.com/locator/ec2/
 
+
+---
+
+## Screenshots
+
+Herea are the screenshots of the deployment in the repository:
+
+- [Screenshots Folder](https://github.com/shefat-global/devops-b11-m6-terraform/tree/main/screenshots)
+- Example images:
+  - ![Screenshot_1](https://github.com/shefat-global/devops-b11-m6-terraform/blob/main/screenshots/Screenshot_1.png)
+  - ![Screenshot_2](https://github.com/shefat-global/devops-b11-m6-terraform/blob/main/screenshots/Screenshot_2.png)
+  - ![Screenshot_3](https://github.com/shefat-global/devops-b11-m6-terraform/blob/main/screenshots/Screenshot_3.png)
+  - ![Screenshot_4](https://github.com/shefat-global/devops-b11-m6-terraform/blob/main/screenshots/Screenshot_20.png)
+  - ![Screenshot_5](https://github.com/shefat-global/devops-b11-m6-terraform/blob/main/screenshots/Screenshot_21.png)
