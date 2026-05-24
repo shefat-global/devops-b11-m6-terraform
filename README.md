@@ -183,5 +183,6 @@ Herea are the screenshots of the deployment in the repository:
   - ![Screenshot_1](https://github.com/shefat-global/devops-b11-m6-terraform/blob/main/screenshots/Screenshot_1.png)
   - ![Screenshot_2](https://github.com/shefat-global/devops-b11-m6-terraform/blob/main/screenshots/Screenshot_2.png)
   - ![Screenshot_3](https://github.com/shefat-global/devops-b11-m6-terraform/blob/main/screenshots/Screenshot_3.png)
-  - ![Screenshot_4](https://github.com/shefat-global/devops-b11-m6-terraform/blob/main/screenshots/Screenshot_20.png)
-  - ![Screenshot_5](https://github.com/shefat-global/devops-b11-m6-terraform/blob/main/screenshots/Screenshot_21.png)
+  - ![Screenshot_4](https://github.com/shefat-global/devops-b11-m6-terraform/blob/main/screenshots/Screenshot_4.png)
+  - ![Screenshot_5](https://github.com/shefat-global/devops-b11-m6-terraform/blob/main/screenshots/Screenshot_5.png)
+  - ![Screenshot_6](https://github.com/shefat-global/devops-b11-m6-terraform/blob/main/screenshots/Screenshot_6.png)
