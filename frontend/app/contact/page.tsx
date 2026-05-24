@@ -1,3 +1,6 @@
+/* Force runtime rendering to avoid build-time fetch errors */
+export const dynamic = "force-dynamic";
+
 import ContactForm from "@/components/ContactForm";
 import Container from "@/components/Container";
 import { Mail, MapPinCheck, Phone } from "lucide-react";
@@ -12,7 +15,7 @@ interface SiteSettings {
 
 /* fetch data function */
 const getSiteSettings = async (): Promise<SiteSettings> => {
-   const res = await fetch(`${env.backendApiUrl}/api/v2/site-settings`, {
+   const res = await fetch(`${env.NEXT_PUBLIC_BACKEND_API_URL}/v2/site-settings`, {
     next: { revalidate: 2592000 }, // 30 days
   });
 

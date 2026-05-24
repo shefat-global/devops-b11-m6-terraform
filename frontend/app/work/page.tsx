@@ -72,7 +72,7 @@ export default function ProjectSlider() {
   useEffect(() => {
     const fetchWorkData = async () => {
       try {
-        const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_API_URL}/api/v2/pages/6/`);
+        const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_API_URL}/v2/pages/6/`);
 
         if (!response.ok) {
           throw new Error(`Failed to fetch work data: ${response.status}`);

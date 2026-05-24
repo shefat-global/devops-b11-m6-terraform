@@ -43,7 +43,7 @@ export default function ResumePage() {
   useEffect(() => {
     const fetchResumeData = async () => {
       try {
-        const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_API_URL}/api/v2/pages/5/`); 
+        const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_API_URL}/v2/pages/5/`); 
 
         if (!response.ok) {
           throw new Error(`Failed to fetch resume data: ${response.status}`);

@@ -40,7 +40,7 @@ interface SiteSettings {
 }
 
 const getHomePageData = async (): Promise<PageData> => {
-    const res = await fetch(`${env.backendApiUrl}/api/v2/pages/3/`, {
+    const res = await fetch(`${env.NEXT_PUBLIC_BACKEND_API_URL}/v2/pages/3/`, {
     next: { revalidate: 2592000 },
   });
 
@@ -60,7 +60,7 @@ const getHomePageData = async (): Promise<PageData> => {
 };
 
 const getSiteSettings = async (): Promise<SiteSettings> => {
-  const res = await fetch(`${env.backendApiUrl}/api/v2/site-settings`, {
+  const res = await fetch(`${env.NEXT_PUBLIC_BACKEND_API_URL}/v2/site-settings`, {
     next: { revalidate: 2592000 },
   });
 
